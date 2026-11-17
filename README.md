@@ -28,8 +28,7 @@ Binary classification project that predicts which telecom customers are likely t
 ![Confusion matrices](confusion_matrix.png)
 ![Feature importance](feature_importance.png)
 
-**Key takeaways:** Both models performed almost the same (F1 ≈ 0.62). Random Forest had higher precision (fewer false alarms), while Logistic Regression had higher recall (it caught 79% of churners vs 73%). Which one is better depends on the cost of a retention campaign: if offers are cheap, favor recall; if they are expensive, favor precision.
-
+**Key takeaways:** Both models performed almost the same (F1 ≈ 0.62). Random Forest had higher precision (fewer false alarms), while Logistic Regression had higher recall (it caught 79% of churners vs 73%). Which one is better depends on the cost of a retention campaign: if offers are cheap, favor recall; if they are expensive, favor precision. The most influential features were tenure, total charges and month-to-month contract type, and the engineered avg_monthly_spend feature ranked in the top five.
 ## Run it
 
 ```bash
