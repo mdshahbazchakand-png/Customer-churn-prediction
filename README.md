@@ -6,8 +6,8 @@ Binary classification project that predicts which telecom customers are likely t
 
 [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) (Kaggle). Each row is a customer with demographics, services, contract and billing details. Target: `Churn` (Yes/No).
 
-- Records: **[FILL IN from output]**
-- Churn rate: **[FILL IN from output]**
+- Records: **7,043**
+- Churn rate: **26.5%**
 
 ## Pipeline
 
@@ -22,8 +22,8 @@ Binary classification project that predicts which telecom customers are likely t
 
 | Model | CV F1 (5-fold) | Test precision | Test recall | Test F1 |
 |---|---|---|---|---|
-| Logistic Regression | [FILL IN] | [FILL IN] | [FILL IN] | [FILL IN] |
-| Random Forest | [FILL IN] | [FILL IN] | [FILL IN] | [FILL IN] |
+| Logistic Regression | 0.628 | 0.499 | 0.794 | 0.613 |
+| Random Forest | 0.627 | 0.543 | 0.730 | 0.623 |
 
 ![Confusion matrices](confusion_matrix.png)
 ![Feature importance](feature_importance.png)
